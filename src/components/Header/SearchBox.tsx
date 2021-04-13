@@ -13,7 +13,6 @@ export function SearchBox() {
   const searchInputRef = useRef<HTMLInputElement>(null)
   //debounce => para fazer busca apos 1 segundo sem digitar
 
-  console.log(searchInputRef.current.value)
   return (
     <Flex
         as="label"
